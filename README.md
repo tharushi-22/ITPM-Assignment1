@@ -15,72 +15,97 @@ Playwright-based automated testing suite for the SwiftTranslator website. Tests 
 - JavaScript
 
 ## 📁 Project Structure
-tests/test_cases.test.js # Main test file
-package.json # Dependencies
-package-lock.json # Lock file
-README.md # Documentation
 
+```text
+.
+├── tests/
+│   └── test_cases.test.js    # Main test automation script
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Locked versions of dependencies
+└── README.md                 # Project documentation
+```
 ## 🚀 Quick Start
 
 ### 1. Clone Repository
-git clone https://github.com/your-username/singlish-sinhala-tests.git
-cd singlish-sinhala-tests
 
+```bash
+git clone https://github.com/tharushi-22/ITPM.git
+cd singlish-sinhala-tests
+```
 ### 2. Install Playwright & Dependencies
 
-# Install Node.js dependencies
+- Install Node.js dependencies
+
+```bash
 npm install
+```
+- Install Playwright browsers
 
-# Install Playwright browsers
+```bash
 npx playwright install
-
+```
 ### 3. Run Tests
 
-# Run all tests
+- Run all tests
+```bash
 npm test
-
-# Alternative command
+```
+- Alternative command
+```bash
 npx playwright test
+```
 
-📊 Running Tests
-Basic Commands
-# Run with visible browser
+## 📊 Running Tests
+### Basic Commands
+- Run with visible browser
+
+```bash
 npx playwright test --headed
+```
+- Run specific test file
 
-# Run specific test file
+```bash
 npx playwright test tests/test_cases.test.js
+```
 
-# View HTML report
+- View HTML report
+
+```bash
 npx playwright show-report
+```
 
-🔧 Configuration
-Timeout: 30 seconds per test
-Browser: Chromium
-Mode: Headless by default
+## 🔧 Configuration
+- Timeout: 30 seconds per test
+- Browser: Chromium
+- Mode: Headless by default
 
-🐛 Troubleshooting
-Installation Issues
-# Force browser installation
+## 🐛 Troubleshooting
+### Installation Issues
+- Force browser installation
+```bash
 npx playwright install --force
-
-# Increase timeout
+```
+- Increase timeout
+```bash
 npx playwright test --timeout=60000
-
-# Debug mode
+```
+- Debug mode
+```bash
 npx playwright test --debug
+```
 
-Prerequisites Check
+## ⚙️ Prerequisites Check
 Ensure:
-Node.js v16+
-Internet connection
-Website accessible (https://www.swifttranslator.com/)
+- Node.js v16+
+- Internet connection
+- Website accessible (https://www.swifttranslator.com/)
 
-📈 Results
-Console output during execution
-HTML report: playwright-report/
-Test artifacts: test-results/
+## 📈 Results
+- Console output during execution
+- HTML report: playwright-report/
+- Test artifacts: test-results/
 
-📝 Notes
-Tests require internet access
-Sequential execution for reliability
-Console shows input/output comparisons
+## 📝 Notes
+- Tests require internet access
+- Sequential execution for reliability
+- Console shows input/output comparisons
