@@ -29,8 +29,7 @@ Playwright-based automated testing suite for the SwiftTranslator website. Tests 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/tharushi-22/ITPM.git
-cd singlish-sinhala-tests
+git clone https://github.com/tharushi-22/ITPM-Assignment1.git
 ```
 ### 2. Install Playwright & Dependencies
 
